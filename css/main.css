@@ -2,10 +2,11 @@ body , html {
     height: 100%;
     margin: 0;
     padding: 0;
+    background: url(../img/losangeles5.jpg);
 }
 
 .bgimg {
-    background: url(../img/losangeles5.jpg);
+    
     height: 100%;
     background-position: center;
     background-size: cover;
