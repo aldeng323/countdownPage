@@ -45,10 +45,11 @@ hr {
 
 
 @media screen and (max-width: 500px) {
-    /*
+
     .bgimg {
     
         height: 100%;
+        background: url(../img/losangeles5.jpg);
         background-position: center;
         background-size: cover;
         position: relative;
@@ -58,14 +59,14 @@ hr {
 
         
     
-    } */
-
+    } 
+/*
     body , html {
         height: 100%;
         margin: 0;
         padding: 0;
-        background: url(../img/losangeles5.jpg);
-        width: 160%;
-    }
+        
+        width: 100%;
+    } */
 }
 
