@@ -3,6 +3,7 @@ body , html {
     margin: 0;
     padding: 0;
     background: url(../img/losangeles5.jpg);
+    width: 100%;
 }
 
 .bgimg {
@@ -12,8 +13,8 @@ body , html {
     background-size: cover;
     position: relative;
     color:#fff;
-    font-family: prime;
-    width: 120%
+    font-family: prime; /*
+    width: 120% */
 
 }
 
@@ -43,4 +44,28 @@ hr {
 }
 
 
-@media screen and (max-width:)
+@media screen and (max-width: 375px) {
+    /*
+    .bgimg {
+    
+        height: 100%;
+        background-position: center;
+        background-size: cover;
+        position: relative;
+        color:#fff;
+        font-family: prime; 
+        width: 100%;
+
+        
+    
+    } */
+
+    body , html {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        background: url(../img/losangeles5.jpg);
+        width: 160%;
+    }
+}
+
