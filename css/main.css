@@ -2,7 +2,7 @@ body , html {
     height: 100%;
     margin: 0;
     padding: 0;
-    background: url(../img/losangeles5.jpg);
+    
     width: 100%;
 }
 
@@ -13,8 +13,10 @@ body , html {
     background-size: cover;
     position: relative;
     color:#fff;
-    font-family: prime; /*
-    width: 120% */
+    font-family: prime;
+    background-image: url(../img/losangeles5.jpg);
+    
+    width: 100%;
 
 }
 
